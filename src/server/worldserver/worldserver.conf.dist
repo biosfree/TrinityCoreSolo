@@ -38,6 +38,8 @@
 #    PACKET SPOOF PROTECTION SETTINGS
 #    MISC ANTI-CHEAT SETTINGS
 #    METRIC SETTINGS
+#    NPCBOT CONFIGURATION
+#    SKIP DEATH KNIGHT STARTING AREA
 #
 ###################################################################################################
 
@@ -4693,6 +4695,52 @@ NpcBot.HK.Achievements.Enable = 0
 #        Maximum:    10.0
 
 NpcBot.HK.Rate.Honor = 1.0
+
+#
+###################################################################################################
+
+###################################################################################################
+# SKIP DEATH KNIGHT STARTING AREA
+#
+# Skip the Deathknight starting area. Start with level 58 DK with Runeforging.
+#
+#    Skip.Deathknight.Starter.Announce.enable
+#        Description: Announces Module when player logs in.
+#        Default:     1 - (Enabled)
+#                     0 - (Disabled)
+
+Skip.Deathknight.Starter.Announce.enable = 1
+
+#
+#    Skip.DeathKnight.Starter.Enable
+#        Description: Instant Skip DK creation for all new accounts regardless of account level.
+#        Default:     0 - (Disabled)
+#                     1 - (Enabled)
+
+Skip.Deathknight.Starter.Enable = 0
+
+#
+#    GM.Skip.Deathknight.Starter.Enable
+#        Description: Instant Skip DK creation for all new accounts of a GM account level ONLY.
+#                     Ensure you have Skip.Deathknight.Starter.Enable set to 0 if using this conf.
+#        Default:     0 - (Disabled)
+#                     1 - (Enabled)
+
+GM.Skip.Deathknight.Starter.Enable = 0
+
+#
+#    Skip.Deathknight.Start.Level
+#        Description: Adjusted Death Knight Start Level if module is used.
+#        Default:    58
+
+Skip.Deathknight.Start.Level = 58
+
+#
+#    Skip.Deathknight.Optional.Enable
+#        Description: Enables optional to skip when talking to lich king on first creation of dk.
+#        Default:     1 - (Enabled)
+
+Skip.Deathknight.Optional.Enable = 1
 
 #
 ###################################################################################################
